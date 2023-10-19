@@ -285,133 +285,27 @@ form.invalid label span {
 
 
 @media(min-width: 1300px) {
-    .card {
-        display: inline-block;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 40%;
-        min-width: 928px;
-        height: 641px;
-        background-color: white;
-        margin-right: -100px;
-        border-radius: 35px;
-    }
+  .card2 {
+      display: inline-block;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 504px;
+      height: 520px;
+      background-color: white;
+      margin-right: -100px;
+      border-radius: 35px;
+  }
+};
+  .para-confirmation {
+    width: 385px;
+    height: 72px;
+    margin: 0px 5px 0 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--dark-navy);
+    /* padding: 0px 6px 0 15px; */
+    border: black solid 2px;
+};
 
-    .textfield {
-        display: inline-block;
-        width: 40%;
-        min-width: 376px;
-        height: 478px;
-        color: var(--dark-navy);
-        margin-top: -1200px;
-    }
-
-    .para {
-        width: 100%;
-        min-width: 376px;
-        margin-bottom: 30px;
-        margin-top: 25px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: var(--dark-navy);
-    }
-
-    .bullet {
-        width: 100%;
-        min-width: 376px;
-        margin-left: 160px;
-        margin-right: 0;
-        margin-top: 30px;
-    }
-
-    .updated {
-        width: 370px;
-        height: 120px;
-        margin-left: 55px;
-        margin-top: 20px;
-    }
-
-    h2 {
-        font-size: 56px;
-    }
-
-    .pic-container {
-        flex-direction: inline-block;
-        width: 400px;
-        height: 593px;
-        border-radius: 15px;
-        margin-left: 530px;
-        margin-top: 22px;
-        margin-bottom: -230px;
-        object-fit: cover;
-        background-image: url('./images/desktop1.svg');
-    }
-
-    img {
-        display: inline-block;
-        border-radius: 30px;
-    }
-
-    .small-checkmark {
-        width: 21px;
-        height: 21px;
-        margin-left: 65px;
-        margin-right: -150px;
-        margin-top: 30px;
-    }
-
-    .top, .middle, .bottom {
-        display: flex;
-        width: 300px;
-        height: 24px;
-        line-height: 22px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: var(--dark-navy);
-        margin-bottom: 13px;
-        margin-left: 80px;
-    }
-
-    .bottom {
-        margin-left: -6px;
-    }
-
-    form {
-        width: 376px;
-        height: 446px;
-        margin-left: 57px;
-        margin-top: 60px;
-    }
-
-    button {
-        align-content: center;
-        justify-content: center;
-        border-radius: 5px;
-        width: 376px;
-        height: 56px;
-        background-color: var(--dark-navy);
-        border-radius: 12px;
-        border: none;
-        font-size: 16px;
-        font-weight: 700;
-        color: white;
-    }
-
-    input, .input-default {
-        border: 1px solid lightgray;
-        border-radius: 10px;
-        color: var(--gray);
-        background-color: white;
-        font-size: 16px;
-        width: 376px;
-        height: 56px;
-        padding-left: 18px;
-        margin-bottom: 23px;
-        margin-top: 10px;
-    }
-    
-    
 
     
-    
-}
