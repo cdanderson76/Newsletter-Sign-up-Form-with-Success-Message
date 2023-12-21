@@ -141,9 +141,9 @@ img {
 
 span {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--dark-navy);
-    margin-left: 10px;
+    margin-left: 120px;
     line-height: 3px;
     text-align: center;
 }
@@ -193,6 +193,10 @@ input {
     font-weight: bolder;
     color: tomato;
     margin-left: 120px;
+}
+
+.valid {
+    color: tomato;
 }
 
 ::placeholder {
@@ -408,6 +412,10 @@ form.invalid label span {
         padding-left: 18px;
         margin-bottom: 23px;
         margin-top: 10px;
+    }
+
+    span {
+        margin-left: 170px;
     }
     
     
