@@ -89,7 +89,7 @@ button:hover {
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 48px;
-        border-radius: 36px;
+        border-radius: 0;
     }
     
     .secondary-check {
